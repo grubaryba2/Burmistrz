@@ -1,0 +1,13 @@
+pl\twojanazwa\reputacja\listeners\ReputationListener.class
+pl\twojanazwa\reputacja\handlers\AnimationManager.class
+pl\twojanazwa\reputacja\SystemReputacjiPlugin.class
+pl\twojanazwa\reputacja\handlers\GriefManager$GriefInfo.class
+pl\twojanazwa\reputacja\handlers\GriefManager$1.class
+pl\twojanazwa\reputacja\listeners\GriefListener.class
+pl\twojanazwa\reputacja\commands\GlowneKomendy.class
+pl\twojanazwa\reputacja\handlers\GriefManager$GriefType.class
+pl\twojanazwa\reputacja\handlers\ArrestManager.class
+pl\twojanazwa\reputacja\handlers\ReputationManager.class
+pl\twojanazwa\reputacja\handlers\CooldownManager.class
+pl\twojanazwa\reputacja\listeners\InterakcjeListener.class
+pl\twojanazwa\reputacja\handlers\GriefManager.class

@@ -1,0 +1,11 @@
+pl\twojanazwa\dzialki\handlers\SelectionManager.class
+pl\twojanazwa\dzialki\listeners\ToolListener.class
+pl\twojanazwa\dzialki\gui\GUIListener.class
+pl\twojanazwa\dzialki\SystemDzialekPlugin.class
+pl\twojanazwa\dzialki\commands\DzialkaCommand.class
+pl\twojanazwa\dzialki\handlers\RequestManager.class
+pl\twojanazwa\dzialki\handlers\PlotManager$PlotRegion.class
+pl\twojanazwa\dzialki\handlers\SelectionManager$1.class
+pl\twojanazwa\dzialki\handlers\PlotManager.class
+pl\twojanazwa\dzialki\gui\ConfirmationGUI.class
+pl\twojanazwa\dzialki\listeners\RegionListener.class

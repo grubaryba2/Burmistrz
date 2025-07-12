@@ -1,0 +1,20 @@
+name: SystemDzialek
+version: 1.0.0
+main: pl.twojanazwa.dzialki.SystemDzialekPlugin
+api-version: '1.21'
+author: TwojNick
+description: Plugin do składania wniosków o działki.
+
+commands:
+  dzialka:
+    description: Główna komenda pluginu.
+    usage: "/dzialka <narzedzie>"
+    aliases: [działka]
+
+permissions:
+  dzialka.admin:
+    description: Dostęp do komendy /dzialka narzedzie.
+    default: op
+  dzialka.mayor:
+    description: Uprawnienia dla burmistrza do akceptowania wniosków.
+    default: op

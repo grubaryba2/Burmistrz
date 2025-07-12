@@ -1,0 +1,13 @@
+# ... (cała reszta configu bez zmian)
+
+# Komunikaty dla gracza
+messages:
+  toolReceived: "&aOtrzymałeś narzędzie do wyznaczania działek."
+  selectionMade: "&aWyznaczono środek działki! &7Możesz teraz obejrzeć jej granice."
+  selectionCancelled: "&cAnulowano wybór działki."
+  requestCreated: "&aStworzono wniosek o działkę! &7Otrzymałeś go w formie papierowej."
+  # NOWE WIADOMOŚCI
+  plotApproved: "&aPomyślnie zatwierdzono działkę dla gracza {PLAYER}!"
+  notMayor: "&cNie jesteś burmistrzem lub nie masz uprawnień."
+  plotEntryTitle: "&6Wkraczasz na działkę gracza"
+  plotEntrySubtitle: "&e{PLAYER}"

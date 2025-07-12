@@ -1,0 +1,72 @@
+# Ustawienia więzienia i przedmiotów
+wiezienie:
+  lokalizacja: ~
+
+kajdanki:
+  nazwa-przedmiotu: "&cKajdanki"
+  nazwa-podczas-cooldownu: "&7Kajdanki (Odnowienie: &f{CZAS}s&7)"
+  lore:
+    - "&7Kliknij PPM na gracza, by skuć go"
+    - "&7i wrzucić do więzienia."
+  cooldown: 15
+  czas-ogluszenia: 5
+  czas-do-teleportu: 5
+
+paralizator:
+  nazwa-przedmiotu: "&eParalizator"
+  nazwa-podczas-cooldownu: "&7Paralizator (Odnowienie: &f{CZAS}s&7)"
+  lore:
+    - "&7Kliknij PPM, aby wystrzelić ładunek"
+    - "&7ogłuszający na odległość."
+  odleglosc: 15
+  ilosc-uzyc: 5
+  czas-ogluszenia: 8
+  cooldown: 10
+
+# Ustawienia systemu reputacji
+reputacja:
+  czas-na-naprawe-griefu: 15
+  chronione-zwierzeta:
+    - "PIG"
+    - "COW"
+    - "SHEEP"
+    - "CHICKEN"
+    - "HORSE"
+    - "DONKEY"
+    - "MULE"
+    - "WOLF"
+    - "CAT"
+    - "OCELOT"
+    - "FOX"
+    - "PANDA"
+    - "VILLAGER"
+
+# Ustawienia paska bossa
+bossbar:
+  tytul: "&c&lCZAS NA NAPRAWĘ: &f{CZAS}s"
+  kolor: "RED"
+  styl: "SOLID"
+
+# Ustawienia ekonomii
+ekonomia:
+  nagroda-za-zle_osoby: 500.0
+  grzywna-za-dobre_osoby: 1000.0
+
+# Wszystkie komunikaty w pluginie
+wiadomosci:
+  ustawiono-wiezienie: "&aPomyślnie ustawiono lokalizację więzienia!"
+  brak-wiezienia: "&cLokalizacja więzienia nie została ustawiona! Użyj /ustawwiezienie."
+  skuto-cel: "&aPomyślnie skuto {CEL}. Trafi do więzienia za {CZAS} sekund."
+  zostales-skuty: "&cZostałeś skuty! Za {CZAS} sekund trafisz do więzienia."
+  osadzono-w-wiezieniu: "&a{CEL} został osadzony w więzieniu."
+  zostales-osadzony: "&cZostałeś osadzony w więzieniu!"
+  trafiono-paralizatorem: "&aTrafiono {CEL} paralizatorem!"
+  zostales-sparalizowany: "&cZostałeś sparaliżowany!"
+  paralizator-rozladowany: "&cParalizator jest rozładowany!"
+  reputacja-sprawdz-dobra: "&aReputacja gracza {GRACZ}: &2&lDOBRA"
+  reputacja-sprawdz-zla: "&cReputacja gracza {GRACZ}: &4&lZŁA"
+  reputacja-zepsuta-atak: "&cTwoja reputacja została zrujnowana przez atak!"
+  reputacja-zepsuta-grief: "&cTwoja reputacja została zrujnowana przez griefing!"
+  aresztowano-dobrego: "&cPomyliłeś się! &7{CEL} &cjest dobrym obywatelem. Płacisz &e{KWOTA}$ &cgrzywny."
+  aresztowano-zlego: "&aAresztowałeś złoczyńcę! Otrzymujesz &e{KWOTA}$ &anagrody."
+  uniewinniony: "&aJesteś dobrym obywatelem! Zostałeś uniewinniony, a policjant zapłacił grzywnę."

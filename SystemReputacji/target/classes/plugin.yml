@@ -1,0 +1,61 @@
+name: SystemReputacji
+version: 1.0.0
+main: pl.twojanazwa.reputacja.SystemReputacjiPlugin
+api-version: '1.21'
+author: TwojNick
+description: Plugin na policję, więzienie i system reputacji.
+depend: [Vault]
+
+commands:
+  ustawwiezienie:
+    description: Ustawia lokalizacje wiezienia.
+    usage: "/ustawwiezienie"
+    permission: reputacja.admin
+  dajkajdanki:
+    description: Daje graczowi kajdanki.
+    usage: "/dajkajdanki [gracz]"
+    permission: reputacja.admin
+  dajparalizator:
+    description: Daje graczowi paralizator.
+    usage: "/dajparalizator [gracz]"
+    permission: reputacja.admin
+  reputacja:
+    description: Sprawdza reputacje gracza.
+    usage: "/reputacja [gracz]"
+    permission: reputacja.sprawdz
+  wiezienie:
+    description: Wsadza gracza ze złą reputacją do więzienia.
+    usage: "/wiezienie [gracz]"
+    permission: reputacja.admin.wiezienie
+  skuj:
+    description: Alias dla komendy /wiezienie.
+    usage: "/skuj [gracz]"
+    permission: reputacja.admin.wiezienie
+  # NOWE KOMENDY
+  ustawzly:
+    description: Ustawia graczowi złą reputację.
+    usage: "/ustawzly [gracz]"
+    permission: reputacja.admin.setstatus
+  uniewinnij:
+    description: Uniewinnia gracza, ustawiając dobrą reputację.
+    usage: "/uniewinnij [gracz]"
+    permission: reputacja.admin.setstatus
+
+
+permissions:
+  reputacja.admin:
+    description: Dostęp do komend /dajkajdanki, /dajparalizator, /ustawwiezienie.
+    default: op
+  reputacja.admin.wiezienie:
+    description: Dostęp do komend /wiezienie i /skuj.
+    default: op
+  # NOWE UPRAWNIENIE
+  reputacja.admin.setstatus:
+    description: Dostęp do komend /ustawzly i /uniewinnij.
+    default: op
+  reputacja.policja:
+    description: Uprawnienia do używania przedmiotów policyjnych.
+    default: op
+  reputacja.sprawdz:
+    description: Uprawnienia do sprawdzania reputacji.
+    default: true
