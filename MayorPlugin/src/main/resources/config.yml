@@ -1,0 +1,56 @@
+term-duration-days: 3
+election-duration-hours: 24
+candidacy-cost: 500.0
+tag:
+  enabled: true
+  prefix: "&6[Burmistrz] &r"
+sign:
+  line1: "&1[Burmistrz]"
+  line2: "&aKliknij, aby"
+  line3: "&aotworzyć menu"
+  line4: "&ewyborcze"
+holograms:
+  mayor-info: ["&6&lBURMISTRZ", "&f%mayor_current%", "&r", "&eKadencja kończy się za:", "&f%mayor_term_ends%"]
+  election-info: ["&b&lWYBORY", "&f%mayor_election_status%", "&r", "&eKoniec za:", "&f%mayor_election_ends%"]
+sounds:
+  new-mayor: "ENTITY_PLAYER_LEVELUP"
+  election-start: "ENTITY_ENDER_DRAGON_GROWL"
+messages:
+  prefix: "&6[Burmistrz] &r"
+  no-permission: "&cNie masz uprawnień."
+  config-reloaded: "&aKonfiguracja przeładowana."
+  sign-set: "&aTabliczka wyborcza została ustawiona."
+  holo-set: "&aHologramy burmistrza zostały ustawione."
+  holo-removed: "&cHologramy burmistrza zostały usunięte."
+  must-be-player: "&cTa komenda musi być wykonana przez gracza."
+  not-enough-money: "&cNie masz wystarczająco pieniędzy! Potrzebujesz %cost%$."
+  already-candidate: "&cJesteś już kandydatem."
+  candidacy-success: "&aZarejestrowano Twoją kandydaturę w obecnych wyborach!"
+  candidacy-future-success: "&aZostałeś zapisany jako kandydat w następnych wyborach!"
+  election-not-running: "&cWybory aktualnie się nie odbywają."
+  vote-success: "&aPomyślnie oddano głos na gracza %player%!"
+  already-voted: "&cJuż oddałeś swój głos w tych wyborach."
+  cannot-vote-for-self: "&cNie możesz głosować na samego siebie."
+  new-mayor-title: "&6Nowy Burmistrz!"
+  new-mayor-subtitle: "&eZostał nim %mayor%!"
+  election-start-title: "&bWybory Rozpoczęte!"
+  election-start-subtitle: "&7Weź udział klikając tabliczkę!"
+  new-mayor-broadcast: "&6&lWybory zakończone! &eNowym burmistrzem zostaje &f&l%mayor%&e z liczbą &f&l%votes% &egłosów!"
+  no-candidates-broadcast: "&cWybory zakończone z powodu braku kandydatów."
+  player-banned-permanent: "&cGracz %player% został zbanowany na kandydowanie na zawsze."
+  player-banned-temporary: "&cGracz %player% został zbanowany na kandydowanie na %duration% kadencji."
+  player-unbanned: "&aGracz %player% został odbanowany."
+  player-not-found: "&cNie znaleziono gracza o nicku %player%."
+  invalid-number: "&cPodana wartość musi być liczbą."
+  duration-changed: "&aZmieniono czas trwania %type% na %value%."
+  player-is-banned: "&cMasz zakaz kandydowania jeszcze przez %duration% kadencji."
+  usage-ban: "&cPoprawne użycie: /mayor ban <gracz> <liczba_kadencji | 0 = na zawsze>"
+  usage-duration: "&cPoprawne użycie: /mayor setduration <term|election> <dni|godziny>"
+  usage-setmayor: "&cPoprawne użycie: /mayor set <gracz>"
+  usage-votes: "&cPoprawne użycie: /mayor votes <add|set|remove> <kandydat> <ilość>"
+  vote-ended: "&aGłosowanie zostało zakończone."
+  term-ended: "&aKadencja burmistrza została zakończona. Rozpoczynają się nowe wybory."
+  new-mayor-set: "&aGracz %player% został mianowany nowym burmistrzem!"
+  votes-changed: "&aZmieniono liczbę głosów dla %player%."
+  player-not-candidate: "&cTen gracz nie kandyduje w obecnych wyborach."
+  sign-protected: "&cNie możesz zniszczyć tabliczki wyborczej."

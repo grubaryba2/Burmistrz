@@ -1,0 +1,15 @@
+mayorplugin\listeners\SignListener.class
+mayorplugin\logic\TagManager.class
+mayorplugin\gui\ElectionGUI$1.class
+mayorplugin\listeners\PlayerJoinListener.class
+mayorplugin\logic\ElectionManager.class
+mayorplugin\commands\MayorCommand.class
+mayorplugin\MayorPlugin$1.class
+mayorplugin\MayorPlugin.class
+mayorplugin\data\DataManager.class
+mayorplugin\listeners\BlockProtectionListener.class
+mayorplugin\logic\ElectionManager$1.class
+mayorplugin\gui\ElectionGUI.class
+mayorplugin\placeholders\MayorPlaceholders.class
+mayorplugin\listeners\ChatListener.class
+mayorplugin\logic\HologramManager.class

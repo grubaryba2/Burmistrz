@@ -1,0 +1,10 @@
+name: MayorPlugin
+version: 'FINAL'
+main: mayorplugin.MayorPlugin
+api-version: '1.21'
+softdepend: [Vault, PlaceholderAPI]
+commands:
+  mayor:
+    description: Commands for the Mayor system.
+    aliases: [burmistrz]
+    permission: mayor.admin
